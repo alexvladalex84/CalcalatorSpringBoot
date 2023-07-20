@@ -23,7 +23,7 @@ public class CalculatorServiceImplTest {
 
     @Test
     public void multiply() {
-        Assertions.assertSame(4,calculator.multiply(2,2));
+        Assertions.assertSame(52,calculator.multiply(2,26));
     }
 
 
