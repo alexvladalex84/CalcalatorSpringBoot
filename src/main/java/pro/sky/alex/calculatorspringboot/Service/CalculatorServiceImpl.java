@@ -29,12 +29,11 @@ public class CalculatorServiceImpl implements CalculatorService {
     }
 
     @Override
-    public String plus(int num1,int num2) {
+    public int plus(int num1,int num2) {
 //        checkForEmptyParameters(num1, num2);
-//        return String.format(num1 + " + " + num2 + " = ") + (num1 + num2);
-//        return Integer.parseInt(String.format("%d+%d",num1,num2));
 
-        return String.valueOf(num1 + num2);
+
+        return(num1 + num2);
     }
 
     @Override
